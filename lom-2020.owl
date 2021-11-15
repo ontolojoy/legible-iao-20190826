@@ -537,8 +537,8 @@ xmlns:lbo="http://ontolojoy.org/owls/legible-ontology-metadata-20190826/">
     <!-- ///////////////////////////////////////////////////////////////////////////////////////
     // // Classes // ///////////////////////////////////////////////////////////////////////////////////////
     -->
-    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <!-- http://ontolojoy.org/owls/legible-formal-ontology-2020/generically_dependent_continuant -->
+    <owl:Class rdf:about="http://ontolojoy.org/owls/legible-formal-ontology-2020/generically_dependent_continuant"/>
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
     <owl:Class rdf:about="http://ontolojoy.org/owls/legible-ontology-metadata-20190826/data_item">
         <rdfs:subClassOf rdf:resource="http://ontolojoy.org/owls/legible-ontology-metadata-20190826/information_content_entity"/>
@@ -547,7 +547,7 @@ xmlns:lbo="http://ontolojoy.org/owls/legible-ontology-metadata-20190826/">
     </owl:Class>
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
     <owl:Class rdf:about="http://ontolojoy.org/owls/legible-ontology-metadata-20190826/information_content_entity">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://ontolojoy.org/owls/legible-formal-ontology-2020/generically_dependent_continuant"/>
         <rdfs:label xml:lang="en">information content entity</rdfs:label>
         <dc:source>http://purl.obolibrary.org/obo/IAO_0000030</dc:source>
     </owl:Class>
